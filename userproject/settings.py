@@ -130,4 +130,4 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = BASE_DIR / 'static'
 
-CSRF_TRUSTED_ORIGINS = ["testdj2022.herokuapp.com"]
+CSRF_TRUSTED_ORIGINS = ["testdj2022.herokuapp.com", "*"]
